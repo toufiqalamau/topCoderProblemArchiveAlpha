@@ -5,7 +5,7 @@ class Alpha:
     def maxPref(self):
         s  = 'abcdefghijklmnopqrstuvwxyz' #string 'S'
         lst1= list(s) #make the string a list
-        lst2 = list(input("enter your string: ")) # take a string as list
+        lst2 = list((input("enter your string: ")).lower()) # take a string as list
         while len(lst2) != 26:
             lst2.append('0')
         #print the second list
